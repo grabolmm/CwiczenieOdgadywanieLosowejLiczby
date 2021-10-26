@@ -21,7 +21,11 @@ public class Main {
 //            System.out.println("podaj liczbe: ");
 //            liczbaCzlowiek = scanner.nextInt();
 //        }
-        operacje.sprawdzeniePrzedzialuLiczb(liczbaCzlowiek,);
+        operacje.sprawdzeniePrzedzialuLiczb(liczbaCzlowiek);
+
+        if (operacje.isCzyPodanoNowaLiczbe() == true){
+            liczbaCzlowiek = operacje.getNowaLiczbaCzlowiek();
+        }
 
 
         if(liczbaCzlowiek == liczbaKomputer){
